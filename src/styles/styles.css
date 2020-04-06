@@ -1,0 +1,131 @@
+html,
+body,
+#root,
+.Apps,
+.resourceContainers,
+.resourceTables {
+  height: 100%;
+}
+
+.fullWidth {
+  width: 100%;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.headerComponent {
+  height: 5em;
+  display: flex;
+}
+
+.headerComponent a {
+  flex: 2 1 auto;
+  border-right: 2px solid white;
+  display: flex; /*CSS3*/
+  align-items: center; /*Vertical align*/
+  justify-content: center;
+  text-decoration: none;
+  color: White;
+  background-color: black;
+}
+
+.resourceContainer {
+  display: flex;
+  flex: 2 2 auto;
+}
+
+.flex-container > * {
+  margin: 1em 0;
+}
+
+.LeftPane {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1 1 30%;
+}
+
+.LeftPane input[type="submit"] {
+  background-color: black;
+  color: white;
+  height: 5em;
+  width: 10em;
+  font-size: 1em;
+}
+
+.LeftPane input[type="submit"] {
+  background-color: black;
+  color: white;
+  height: 5em;
+  width: 10em;
+  font-size: 1em;
+}
+
+.LeftPane input[type="submit"]:focus {
+  border: none;
+}
+
+.LeftPane input[type="submit"]:active {
+  background-color: grey;
+}
+
+.LeftPane input[type="text"] {
+  height: 2em;
+  width: 20em;
+  font-size: 1em;
+}
+
+.RightPane {
+  flex: 1 1 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.courseTable td {
+  width: 50%;
+}
+
+.resourceTable tr {
+  width: 100%;
+}
+.resourceTable td {
+  width: 50%;
+}
+
+.resourceTable {
+  display: table;
+  height: 100%;
+  width: 100%;
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+
+.resourceTable thead tr {
+  color: white;
+  background-color: black;
+  border-collapse: collapse;
+  border: 2px solid black;
+}
+
+.resourceTable tbody tr td {
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+
+.resourceTable tbody {
+  height: 100%;
+  overflow-y: auto;
+}
+.resourceTable td {
+  font-size: 1em;
+  width: 50%;
+}
+
+.resourceTable th {
+  font-size: 1.2em;
+  width: 50%;
+}
